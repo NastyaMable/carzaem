@@ -1,0 +1,1226 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name='viewport' content='width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no'>
+	<title>Займ под ПТС</title>
+
+	
+
+	<!--[if lt IE 9]>
+	<script src="https://themes.getbootstrap.com/wp-content/themes/dokan/assets/js/html5.js" type="text/javascript"></script>
+	<![endif]-->
+
+	<link rel="canonical" href="" />
+
+	<link rel='stylesheet' href='css/font.css' type='text/css' media='all' />
+	<link rel='stylesheet' href='css/template.css' type='text/css' media='all' />
+
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/jquery-ui.css">
+	<link rel="stylesheet" href="css/chosen.css">
+
+	</head>
+	
+	<body>
+	<header class="header header-transparent">
+		<div class="header-top">
+			<div class="container">
+				<div class="inner-header"><a class="inner-brand" href="index.html"></a></div>
+					
+				<div class="inner-navigation visible-on-wade">
+					<div class="inner-nav">
+						<div class="inner-block">
+							<div class="city-wrapper city-wrapper-main">
+								<div class="city-text">Ростов-на-Дону</div>
+							</div>  
+							
+							<div class="header-phone"><a href="tel:78005512209">8 (800) 551-22-09</a></div>
+					
+							<div class="header-whatsapp">
+								<div class="title">Бесплатно, круглосуточно</div>
+								<div class="whatsapp">WhatsApp бот</div>
+							</div>
+							
+							<button type="button" class="btn btn-danger no-radius right-position app-btn" data-toggle="modal" data-target="#CallPhone">Заказать звонок</button>
+						</div>
+					</div>
+				</div>
+				<div class="extra-nav">
+					<ul>
+						<li class="icon-phone"><a href="tel:78005512709"><span class="icon-item-span"></span></a></li>
+						<li>
+							<a class="off-canvas-open" href="#"><span class="menu-item-span"></span></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="header-menu-bottom visible-on-wade">
+			<div class="container">
+				<nav>
+					<ul class="header-menu">
+						<li class="active"><a href="carloan.html">Займ под авто</a></li>
+						<li><a href="loanpts.html">Займ под ПТС</a></li>
+						<li><a href="pawnshop.html">Автоломбард</a></li>
+						<li><a href="purchase.html">Срочный выкуп</a></li>
+						<li><a href="credit.html">Кредит на покупку авто</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+    
+	<section class="overlay-background" style="background-image: url(images/loanpts-bg.jpg);">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">	
+					<div class="header-form-block visible-on-mobile">
+						<h1>Возьмите деньги под залог авто легко и быстро</h1>
+						<div class="p1">
+							Ставка от 2,5% в месяц без переплат и ожидания<br/>
+							<div class="typewrite text-animate" data-period="1000" data-type='[ "Автомобиль остается у Вас", "даже если отказали банки", "только ПТС, СТС и паспорт" ]'><span class="wrap"></span></div>
+						</div>
+					</div>
+					
+					<div class="calculate-top">	
+						<div class="calculate-time">	
+							<div class="calculate-title">Решение по онлайн-заявке</div>
+							<div class="calculate-real-time">
+								<span class="calculate-text">у вас в </span><span class="calculate-text-time">15:23</span>
+							</div>	
+						</div>
+						
+						
+						<h1><span class="h1-span">Калькулятор</span> займа</h1>
+						<div id="calculator" data-stavka-parts="13.9" data-stavka-percents="0.139">
+                            <div class="calculate-item">
+                                <div class="calculate-steps">
+                                    <div class="calculate-item-input steps-left">
+                                        <span class="amount-value" id="amount-thousands"></span>
+                                        <span class="ruble-white"></span><span>тысяч</span>
+                                    </div>
+                                    <div class="steps-right title-steps">Сумма кредита</div>
+                                </div>
+
+                                <div class="calculate-steps">
+                                    <div class="steps-left">30</div>
+                                    <div class="steps-right">3000</div>
+                                </div>
+                                <div id="slider-range-thousands"></div>
+                            </div>
+
+                            <div class="calculate-item">
+                                <div class="calculate-steps">
+                                    <div class="calculate-item-input steps-left">
+                                        <span class="amount-value" id="amount-months"></span>
+                                        <span>месяцев</span>
+                                    </div>
+                                    <div class="steps-right title-steps">На срок</div>
+                                </div>
+
+                                <div class="calculate-steps">
+                                    <div class="steps-left">2</div>
+                                    <div class="steps-right">60</div>
+                                </div>
+                                <div id="slider-range-months"></div>
+                            </div>
+
+
+
+                            <ul class="switcher" id="type-loan">
+                                <li class="for_opening_view selected" id="type-parts" data-show="one">равными частями <a tabindex="0" class="question-popper" role="button" data-toggle="popover" data-trigger="focus" data-content="Ежемесячное погашение равными частями основного долга, и процентов."></a></li>
+                                <li class="for_opening_view" id="type-percents" data-show="two">процентами <a tabindex="0" class="question-popper" role="button" data-toggle="popover" data-trigger="focus" data-content="Ежемесячное погашение только процентов, а сумма основного долга выплачивается в конце срока."></a></li>
+                            </ul>
+                            <div class="switch-js">
+                                <div class="opening_view" data-switch="one">
+                                    <div>
+                                        <span class="text-bold">Процентная ставка:</span><span> 13,9% годовых <a tabindex="0" class="question-popper" role="button" data-toggle="popover" data-trigger="focus" data-content="Пример расчёта полной стоимости кредита(ПСК): ПСК составит 13,9 % в год. Для суммы 100.000р. на 1 год, ежемесячный платеж равен 8974 р., сумма процентов через 12 месяцев составит 7688 рублей. Общие выплаты составят 107688 рублей."></a></span>
+                                    </div>
+                                    <div>
+                                        <span class="text-bold">Срок кредита:</span> От 61 дня до 60 месяцев с возможностью досрочного погашения
+                                    </div>
+
+                                </div>
+                                <div class="opening_view" data-switch="two">
+                                    <div>
+                                        <span class="text-bold">Процентная ставка:</span><span> 13,9% годовых <a tabindex="0" class="question-popper" role="button" data-toggle="popover" data-trigger="focus" data-content="Пример расчёта полной стоимости кредита(ПСК): ПСК составит 13,9 % в год. Для суммы 100.000р. на 1 год, ежемесячный платеж равен 8974 р., сумма процентов через 12 месяцев составит 7688 рублей. Общие выплаты составят 107688 рублей."></a></span>
+                                    </div>
+                                    <div>
+                                        <span class="text-bold">Срок кредита:</span> От 61 дня до 60 месяцев с возможностью досрочного погашения
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+					</div>
+					<div class="calculate-bottom">
+						<span class="calculate-bottom-text">Ежемесячный платеж равен</span><span class="calculate-bottom-text-price" id="revenue"></span><span class="ruble"><img src="images/ruble.svg" alt="" /></span>
+					</div>
+				</div>
+
+				<div class="col-md-6 visible-on-tablet visible-on-wade">
+					<div class="header-form-block">
+						<div class="">
+							<h1>Возьмите деньги под залог авто легко и быстро</h1>
+							<div class="p1">
+								Ставка от 2,5% в месяц без переплат и ожидания<br/>
+								<div class="typewrite text-animate" data-period="1000" data-type='[ "Автомобиль остается у Вас", "даже если отказали банки", "только ПТС, СТС и паспорт" ]'><span class="wrap"></span></div>
+							</div>
+						</div>
+						<div class="header-form-bottom">
+							<h2>Подать заявку</h2>
+							<form class="overlay-header-form row">
+								<div class="form-group col-md-6">
+									<label for="exampleInputName">Ваше имя</label>
+									<input type="text" class="form-control" id="exampleInputName" name="exampleInputName" placeholder="Как к Вам обращаться">
+								</div>
+								<div class="form-group col-md-6">
+									<label for="exampleInputPhone">Телефон</label>
+									<input type="text" class="form-control" id="exampleInputPhone" name="exampleInputPhone" placeholder="+7 (ХХХ) ХХХ - ХХ - ХХ">
+								</div>
+								<div class="col-md-12">
+									<div class="personal-data">Нажимая на кнопку, вы даёте своё согласие на обработку ваших <a href="#">персональных данных</a></div>
+									<button type="submit" class="btn btn-danger">Подать заявку</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h1><span class="h1-span">Принимаем </span><span class="h1-span">транспортные средства </span>в любом состоянии</h1>
+					<div class="owl-carousel owl-theme job">
+						<div class="col-block-5">
+							<a href="#">
+								<div class="col-block-img" style="background-image: url(images/90008223.jpg);"></div>
+								<div class="col-block-text">Легковые авто</div>
+							</a>
+						</div>
+						<div class="col-block-5">
+							<a href="#">
+								<div class="col-block-img" style="background-image: url(images/vanveenj.jpg);"></div>
+								<div class="col-block-text">Грузовые авто</div>
+							</a>
+						</div>
+						<div class="col-block-5">
+							<a href="#">
+								<div class="col-block-img" style="background-image: url(images/2-3.jpg);"></div>
+								<div class="col-block-text">Спецтехника</div>
+							</a>
+						</div>
+						<div class="col-block-5">
+							<a href="#">
+								<div class="col-block-img" style="background-image: url(images/baptiste.jpg);"></div>
+								<div class="col-block-text">Мототехника</div>
+							</a>
+						</div>
+						<div class="col-block-5">
+							<a href="#">
+								<div class="col-block-img" style="background-image: url(images/gautam.jpg);"></div>
+								<div class="col-block-text">Водный транспорт</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h1><span class="h1-span">Почти <span class="h1-span-red">как в банке</span>, </span>только сразу!</h1>
+					<p>Кредитная история и ваши долги не имеют значения</p>
+				</div>
+				
+				<div class="col-xl-9 push-xl-2">	
+					<ul class="get-list style-3">
+						<li>
+							<div class="get-item">
+								<img  class="get-item-img" src="images/icon_1.svg">
+								<p class="get-item-title">до 80%</p>
+								<p class="get-item-text">Сумма займа от стоимости авто</p>
+							</div>
+						</li>
+						<li>
+							<div class="get-item">
+								<img  class="get-item-img" src="images/icon_2.svg">
+								<p class="get-item-title">3 документа</p>
+								<p class="get-item-text">Паспорт, ПТС и СТС</p>
+							</div>
+						</li>
+						<li>
+							<div class="get-item">
+								<img  class="get-item-img" src="images/icon_3.svg">
+								<p class="get-item-title">за 5 мин.</p>
+								<p class="get-item-text">Онлайн-решение</p>
+							</div>
+						</li>
+					</ul>
+					<div class="link-button"><a href="#">Подать заявку <span class="arrow"></span></a></div>
+				</div>
+			</div>
+			<figure class="get-image"><img src="images/jar.jpg" alt=""></figure>
+		</div>
+	</section>
+	
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-11 col-sm-12">
+					<h1><span class="h1-span">Плюсы займов под залог </span>паспорта транспортного средства в Москве</h1>
+					<p>Что делать, если внезапно понадобились деньги, а взять их неоткуда? В долг давать никто не хочет, а брать займы в банке – не вариант? Можно, конечно, продать машину, но это слишком долго, если средства нужны сейчас. Не беда – ведь можно взять залог под авто или его ПТС.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-sm-12">
+					<h1>Деньги сразу после подписания договора</h1>
+					<p>Два типа платежей - равными частями или только процентов</p>
+					<ul class="get-list style-2">
+						<li>
+							<div class="get-item">
+								<img  class="get-item-img" src="images/icon_4.svg">
+								<p class="get-item-title">1 час</p>
+								<p class="get-item-text">На оформление документов</p>
+							</div>
+						</li>
+						<li>
+							<div class="get-item">
+								<img  class="get-item-img" src="images/icon_5.svg">
+								<p class="get-item-title">ФЗ-131 РФ</p>
+								<p class="get-item-text">Договор займа на основании</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-6 col-sm-12">
+					<div class="bg-grey">
+						<h1>Что нужно взять с собой в офис</h1>
+						<ol class="list-number">
+							<li>Паспорт</li>
+							<li>ПТС (Паспорт транспортного средства)</li>
+							<li>СТС (Свидетельство о регистрации транспортного средства)</li>
+						</ol>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-sm-12">
+					<h1>Как получить займ</h1>
+					<div class="get-step-all">
+						<div class="get-step">
+							<div class="get-step-images"><img src="images/number_1.svg" alt="" /></div>
+							<div class="get-step-text">Онлайн-заявка на сайте или звонок на горячую линию</div>
+						</div>
+						<div class="get-step">
+							<div class="get-step-images"><img src="images/number_3.svg" alt="" /></div>
+							<div class="get-step-text">Осмотр автомобиля и оригиналов документов</div>
+						</div>
+						<div class="get-step">
+							<div class="get-step-images"><img src="images/number_5.svg" alt="" /></div>
+							<div class="get-step-text">Деньги у Вас</div>
+						</div>
+						
+						<div class="line-block">
+							<div class="line-button"><button type="button" class="btn btn-danger no-radius right-position app-btn" data-toggle="modal" data-target="#Application">Подать заявку</button></div>
+							<div class="get-step-line"></div>
+							<div class="get-step-line"></div>
+						</div>
+						
+						<div class="get-step margin-top-6">
+							<div class="get-step-images"><img src="images/number_2.svg" alt="" /></div>
+							<div class="get-step-text text-middle">Расчет условий займа</div>
+						</div>
+						<div class="get-step margin-top-6">
+							<div class="get-step-images"><img src="images/number_4.svg" alt="" /></div>
+							<div class="get-step-text text-middle">Подписание договора</div>
+						</div>
+					</div>
+					
+					<div class="get-step-all-mobile">
+						<div class="get-step">
+							<div class="get-step-images"><img src="images/number_1.svg" alt="" /></div>
+							<div class="get-step-text">Онлайн-заявка на сайте или звонок на горячую линию</div>
+						</div>
+						<div class="get-step margin-top-6">
+							<div class="get-step-images"><img src="images/number_2.svg" alt="" /></div>
+							<div class="get-step-text text-middle">Расчет условий займа</div>
+						</div>
+						<div class="get-step">
+							<div class="get-step-images"><img src="images/number_3.svg" alt="" /></div>
+							<div class="get-step-text">Осмотр автомобиля и оригиналов документов</div>
+						</div>
+						<div class="get-step margin-top-6">
+							<div class="get-step-images"><img src="images/number_4.svg" alt="" /></div>
+							<div class="get-step-text text-middle">Подписание договора</div>
+						</div>
+						<div class="get-step">
+							<div class="get-step-images"><img src="images/number_5.svg" alt="" /></div>
+							<div class="get-step-text">Деньги у Вас</div>
+						</div>
+						
+						<button type="button" class="btn btn-danger no-radius right-position app-btn" data-toggle="modal" data-target="#Application">Подать заявку</button>
+					</div>
+				</div> 
+			</div>
+		</div>
+	</section>
+	
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-11 col-sm-12">
+					<h1>Как оформить кредит под паспорт транспортного средства в Москве</h1>
+					<p>Оформление денежного займа под ПТС не представляет собой ничего сложного. Особое значение это имеет для тех, кому средства нужны незамедлительно. Для этого возможно посетить автоломбард лично, а также воспользоваться онлайн-заявкой на его интернет-портале в Москве. Иногда на подобных порталах предоставляется и помощь с оформлением займа в реальном времени. Сначала необходимо заполнить специальную форму в электронном виде. Затем назначается личная встреча с заявителем. Еще одно преимущество онлайн-портала в том, что там есть возможность предварительного расчета суммы займа, если ввести данные залогового ТС.</p>
+					<p>В случае, если условия, предоставляемые заемщику, его устраивают, то оформляется уже сам договор. В нем указываются условия сдачи паспорта ТС в залог, а также получения займа. После оформления договора, деньги можно будет забрать. Как правило, сумма залога соответствует оценочной стоимости машины. Организаций, выдающих займы по данной схеме, сегодня довольно много.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-sm-12">
+					<h1>Другие наши продукты</h1>
+					<div class="row">
+						<div class="col-md-4 col-sm-6 col-xs-12 product-template">
+							<div class="element relative">
+								<div class="element-img" style="background-image: url(images/frantzou.jpg);"></div>
+								<div class="element-content-wrapper">
+									<div class="element-content">
+										<div class="element-title">Залог авто</div>
+										<div class="element-text">Охраняемая стоянка</div>	
+										<div class="element-wrap">
+											<a href="#" class="btn btn-danger">Подробнее</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 col-xs-12 product-template">
+							<div class="element relative">
+								<div class="element-img" style="background-image: url(images/irphcabotkxn7kveywri.jpg);"></div>
+								<div class="element-content-wrapper">
+									<div class="element-content">
+										<div class="element-title">Залог ПТС</div>
+										<div class="element-text">Охраняемая стоянка</div>	
+										<div class="element-wrap">
+											<a href="#" class="btn btn-danger">Подробнее</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 col-xs-12 product-template">
+							<div class="element relative">
+								<div class="element-img" style="background-image: url(images/1526626607369.jpg);"></div>
+								<div class="element-content-wrapper">
+									<div class="element-content">
+										<div class="element-title">Автоломбард</div>
+										<div class="element-text">Охраняемая стоянка</div>	
+										<div class="element-wrap">
+											<a href="#" class="btn btn-danger">Подробнее</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 col-xs-12 product-template">
+							<div class="element relative">
+								<div class="element-img" style="background-image: url(images/liam-martens.jpg);"></div>
+								<div class="element-content-wrapper">
+									<div class="element-content">
+										<div class="element-title">Срочный выкуп</div>
+										<div class="element-text">Охраняемая стоянка</div>	
+										<div class="element-wrap">
+											<a href="#" class="btn btn-danger">Подробнее</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 col-xs-12 product-template">
+							<div class="element relative">
+								<div class="element-img" style="background-image: url(images/taun.jpg);"></div>
+								<div class="element-content-wrapper">
+									<div class="element-content">
+										<div class="element-title">Автострахование</div>
+										<div class="element-text">Охраняемая стоянка</div>	
+										<div class="element-wrap">
+											<a href="#" class="btn btn-danger">Подробнее</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 col-xs-12 product-template">
+							<div class="element relative">
+								<div class="element-img" style="background-image: url(images/1530675706010.jpg);"></div>
+								<div class="element-content-wrapper">
+									<div class="element-content">
+										<div class="element-title">Кредит на авто</div>
+										<div class="element-text">Охраняемая стоянка</div>	
+										<div class="element-wrap">
+											<a href="#" class="btn btn-danger">Подробнее</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-11 col-sm-12">
+					<h1>Что нужно, чтобы получить заем под паспорт транспортного средства?</h1>
+					<p>Для получения кредита под ПТС в Москве не нужно ничего особенного. Достаточно просто иметь все необходимые документы и соответствовать требованиям залога. А главный плюс такого займа в том, что использовать машину можно на всем протяжении пользования займом. В первую очередь для получения займа необходимо иметь гражданство РФ, а также попадать в одобряемый возраст – не менее 21 года.</p>
+					<p>Из документов нужны только паспорт заемщика и бумаги на машину – при наличии данных документов уже можно заключить договор. Далее будет проведена проверка авто на соответствие требованиям получения займа, которая не отнимет значительного времени. Если нужна помощь – то ее всегда можно получить, если обратиться в филиалы, выдающие займы в Москве. Там любой обратившийся может получить профессиональную помощь.</p>
+					<p>В качестве гарантий подходят как российские ПТС, так и документы иномарок. При этом, в некоторых случаях существуют ограничения, играющие важную роль в возможности получить заем. Одно из них – стоимость автомобиля по рынку. Стоимость автомобиля должна превышать 120 000 рублей.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-sm-12">
+					<h1>Контакты и адреса офисов</h1>
+					<form class="map_filter visible-on-wade visible-on-tablet" action="#">
+							<fieldset class="mapOptions__region">
+								<div class="regi">
+									<a id="mapOptions__region" href="#" data-toggle="modal" data-target="#mapAddress"><span>Ростовская область</span></a><div class="list"></div>
+								</div>
+								
+							</fieldset>
+							<div id="addresses" class="mapOptions__addresses">
+								<a href="#" data-coordinate="39.42852448,47.10609377" data-address="344000, г. Ростов-на - Дону, Добровольского 15 о. 6" data-name="Добровольского 15 о. 6" data-content="Пн-пт.: 8:00-22:00</br>
+									Сб-вс.: 10:00-20:00" title="" class="mapOptions__addresses_a">
+									344000, г. Ростов-на - Дону<br>
+									<span class="addresses-text-bold">Добровольского 15 о. 6</span><br>
+									<span class="addresses-text-phone">8 800 710 67 56</span><br>
+									Пн-пт.: <span class="addresses-text-bold">8:00-22:00</span><br>
+									Сб-вс.: <span class="addresses-text-bold">10:00-20:00</span>
+								</a>
+								
+								<a href="#" data-coordinate="39.413158057,47.10133380" data-address="344000, г. Ростов-на - Дону, Добровольского 15 о. 6" data-name="Добровольского 15 о. 6" data-content="Пн-пт.: 8:00-22:00</br>
+									Сб-вс.: 10:00-20:00" title="" class="mapOptions__addresses_a">
+									344000, г. Ростов-на - Дону<br>
+									<span class="addresses-text-bold">Добровольского 15 о. 6</span><br>
+									<span class="addresses-text-phone">8 800 710 67 56</span><br>
+									Пн-пт.: <span class="addresses-text-bold">8:00-22:00</span><br>
+									Сб-вс.: <span class="addresses-text-bold">10:00-20:00</span>
+								</a>
+								
+								<a href="#" data-coordinate="39.42852448,47.10609377" data-address="344000, г. Ростов-на - Дону, Добровольского 15 о. 6" data-name="Добровольского 15 о. 6" data-content="Пн-пт.: 8:00-22:00</br>
+									Сб-вс.: 10:00-20:00" title="" class="mapOptions__addresses_a">
+									344000, г. Ростов-на - Дону<br>
+									<span class="addresses-text-bold">Добровольского 15 о. 6</span><br>
+									<span class="addresses-text-phone">8 800 710 67 56</span><br>
+									Пн-пт.: <span class="addresses-text-bold">8:00-22:00</span><br>
+									Сб-вс.: <span class="addresses-text-bold">10:00-20:00</span>
+								</a>
+								
+								<a href="#" data-coordinate="39.413158057,47.10133380" data-address="344000, г. Ростов-на - Дону, Добровольского 15 о. 6" data-name="Добровольского 15 о. 6" data-content="Пн-пт.: 8:00-22:00</br>
+									Сб-вс.: 10:00-20:00" title="" class="mapOptions__addresses_a">
+									344000, г. Ростов-на - Дону<br>
+									<span class="addresses-text-bold">Добровольского 15 о. 6</span><br>
+									<span class="addresses-text-phone">8 800 710 67 56</span><br>
+									Пн-пт.: <span class="addresses-text-bold">8:00-22:00</span><br>
+									Сб-вс.: <span class="addresses-text-bold">10:00-20:00</span>
+								</a>
+								
+								<a href="#" data-coordinate="39.42852448,47.10609377" data-address="344000, г. Ростов-на - Дону, Добровольского 15 о. 6" data-name="Добровольского 15 о. 6" data-content="Пн-пт.: 8:00-22:00</br>
+									Сб-вс.: 10:00-20:00" title="" class="mapOptions__addresses_a">
+									344000, г. Ростов-на - Дону<br>
+									<span class="addresses-text-bold">Добровольского 15 о. 6</span><br>
+									<span class="addresses-text-phone">8 800 710 67 56</span><br>
+									Пн-пт.: <span class="addresses-text-bold">8:00-22:00</span><br>
+									Сб-вс.: <span class="addresses-text-bold">10:00-20:00</span>
+								</a>
+								
+								<a href="#" data-coordinate="39.413158057,47.10133380" data-address="344000, г. Ростов-на - Дону, Добровольского 15 о. 6" data-name="Добровольского 15 о. 6" data-content="Пн-пт.: 8:00-22:00</br>
+									Сб-вс.: 10:00-20:00" title="" class="mapOptions__addresses_a">
+									344000, г. Ростов-на - Дону<br>
+									<span class="addresses-text-bold">Добровольского 15 о. 6</span><br>
+									<span class="addresses-text-phone">8 800 710 67 56</span><br>
+									Пн-пт.: <span class="addresses-text-bold">8:00-22:00</span><br>
+									Сб-вс.: <span class="addresses-text-bold">10:00-20:00</span>
+								</a>
+							</div>
+						</form>
+					<div id="map" class="ofices visible-on-wade visible-on-tablet">
+						
+						<div class="map-button"><button type="button" class="btn btn-danger no-radius right-position app-btn" data-toggle="modal" data-target="#Application">Подать заявку</button></div>
+					</div>
+
+					<div class="visible-on-mobile">
+						<div class="region_address">
+							<select class="form-control popover-help chosen-select" data-placeholder="Выберите регион" data-original-title="Регион" data-content="">
+								<option value="0"></option>
+								<option value="1">Астраханская область</option>
+								<option value="2">Белгородская область</option>
+								<option value="3">Брянская область</option>
+								<option value="4">Волгоградская область</option>
+								<option value="5">Вологодская область</option>
+								<option value="6">Воронежская область</option>
+								<option value="7">Кемеровская область</option>
+								<option value="8">Краснодарский край</option>
+								<option value="9">Курская область</option>
+								<option value="10">Ленинградская область</option>
+								<option value="11">Липецкая область</option>
+								<option value="12">Мурманская область</option>
+								<option value="13">Новосибирская область</option>
+								<option value="14">Омская область</option>
+								<option value="15">Орловская область</option>
+								<option value="16">Пермский край</option>
+								<option value="17">Республика Крым</option>
+								<option value="18">Республика Татарстан</option>
+								<option value="19" selected="selected">Ростовская область</option>
+							</select>
+						</div>
+						
+						<div class="row all_address">	
+							<div class="col-md-4 col-sm-6">	
+								<div class="address-contact">
+									<h3>Батайск</h3>
+									<div class="address-item-block">
+										<div class="location-item">ул.Максима Горького, 285г</div>
+										<div>Пн-Вс 9:00-19:00</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-6">	
+								<div class="address-contact">
+									<h3>Екатеринбург</h3>
+									<div class="address-item-block">
+										<div class="location-item">ул.Ленина 25 - ТЦ Европа106</div>
+										<div>Пн-Вс 10:00-19:00</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-6">	
+								<div class="address-contact">
+									<h3>Краснодар</h3>
+									<div class="address-item-block">
+										<div class="location-item">ул.Уральская 114</div>
+										<div>Пн-Вс 9:00-19:00</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-6">	
+								<div class="address-contact">
+									<h3>Краснодар</h3>
+									<div class="address-item-block">
+										<div class="location-item">ул.Северная, 433, оф 7</div>
+										<div>Пн-Вс 9:00-19:00</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-6">	
+								<div class="address-contact">
+									<h3>Москва</h3>
+									<div class="address-item-block">
+										<div class="location-item">ул.Академика Бакулева, 10, 2 этаж </div>
+										<div>Метро Тропарево</div>
+										<div>Пн-Вс 10:00-22:00</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-6">	
+								<div class="address-contact">
+									<h3>Батайск</h3>
+									<div class="address-item-block">
+										<div class="location-item">ул.Максима Горького, 285г</div>
+										<div>Пн-Вс 9:00-19:00</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-6">	
+								<div class="address-contact">
+									<h3>Екатеринбург</h3>
+									<div class="address-item-block">
+										<div class="location-item">ул.Ленина 25 - ТЦ Европа106</div>
+										<div>Пн-Вс 10:00-19:00</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-6">	
+								<div class="address-contact">
+									<h3>Краснодар</h3>
+									<div class="address-item-block">
+										<div class="location-item">ул.Уральская 114</div>
+										<div>Пн-Вс 9:00-19:00</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-6">	
+								<div class="address-contact">
+									<h3>Краснодар</h3>
+									<div class="address-item-block">
+										<div class="location-item">ул.Северная, 433, оф 7</div>
+										<div>Пн-Вс 9:00-19:00</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-6">	
+								<div class="address-contact">
+									<h3>Москва</h3>
+									<div class="address-item-block">
+										<div class="location-item">ул.Академика Бакулева, 10, 2 этаж </div>
+										<div>Метро Тропарево</div>
+										<div>Пн-Вс 10:00-22:00</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-6">	
+								<div class="address-contact">
+									<h3>Батайск</h3>
+									<div class="address-item-block">
+										<div class="location-item">ул.Максима Горького, 285г</div>
+										<div>Пн-Вс 9:00-19:00</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-6">	
+								<div class="address-contact">
+									<h3>Екатеринбург</h3>
+									<div class="address-item-block">
+										<div class="location-item">ул.Ленина 25 - ТЦ Европа106</div>
+										<div>Пн-Вс 10:00-19:00</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-6">	
+								<div class="address-contact">
+									<h3>Краснодар</h3>
+									<div class="address-item-block">
+										<div class="location-item">ул.Уральская 114</div>
+										<div>Пн-Вс 9:00-19:00</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-6">	
+								<div class="address-contact">
+									<h3>Краснодар</h3>
+									<div class="address-item-block">
+										<div class="location-item">ул.Северная, 433, оф 7</div>
+										<div>Пн-Вс 9:00-19:00</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-6">	
+								<div class="address-contact">
+									<h3>Москва</h3>
+									<div class="address-item-block">
+										<div class="location-item">ул.Академика Бакулева, 10, 2 этаж </div>
+										<div>Метро Тропарево</div>
+										<div>Пн-Вс 10:00-22:00</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<button type="button" class="btn btn-danger no-radius right-position app-btn" data-toggle="modal" data-target="#Application">Подать заявку</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-sm-3 visible-on-wade visible-on-tablet">
+					<h3>Услуги</h3>
+					<ul class="footer-li">
+						<li><a href="#">Займ под авто</a></li>
+						<li><a href="#">Займ под ПТС</a></li>
+						<li><a href="#">Автоломбард</a></li>
+						<li><a href="#">Срочный выкуп</a></li>
+						<li><a href="#">Кредит на покупку авто</a></li>
+					</ul>
+				</div>
+				
+				<div class="col-md-3 col-sm-3 visible-on-wade visible-on-tablet">
+					<h3>По сайту</h3>
+					<ul class="footer-li">
+						<li><a href="#">О компании</a></li>
+						<li><a href="#">Услуги</a></li>
+						<li><a href="#">Отзывы</a></li>
+						<li><a href="#">Блог</a></li>
+						<li><a href="#">Контакты</a></li>
+					</ul>
+				</div>
+				
+				<div class="col-md-6 col-sm-6">
+					<div class="footer-logo"><a href="#"><img src="images/logo-color.svg" alt="" /></a></div>
+					<p>Займы предоставляет ООО «Автоломбард Престиж»</p>
+					<div class="footer-phone"><a href="tel:78005512209">8 (800) 551-22-09</a></div>
+					
+					<button type="button" class="btn btn-danger no-radius right-position app-btn" data-toggle="modal" data-target="#Application">Франшиза</button>
+					<div class="soc-footer">
+						<a href="https://vk.com/autolombard_rostov" target="_blank" rel="nofollow" class="soc-vk"></a>
+						<a href="https://www.facebook.com/%D0%90%D0%B2%D1%82%D0%BE%D0%B7%D0%B0%D0%B9%D0%BC-111605753506316/" target="_blank" rel="nofollow" class="soc-f"></a>
+						<a href="https://ok.ru/group/61246096015409" target="_blank" rel="nofollow" class="soc-ok"></a>
+						<a href="https://twitter.com/carzaem" target="_blank" rel="nofollow" class="soc-tw"></a>
+						<a href="https://www.instagram.com/carzaem/" target="_blank" rel="nofollow" class="soc-inst"></a>
+					</div>
+				</div>
+				
+				<div class="col-md-12 footer-mobile-menu visible-on-mobile">
+					<h3>Навигация по сайту</h3>
+					<ul class="footer-li row">
+						<div class="footer-mobile-menu-col">
+							<li><a href="#">О компании</a></li>
+							<li><a href="#">Услуги</a></li>
+							<li><a href="#">Отзывы</a></li>
+						</div>
+						<div class="footer-mobile-menu-col">
+							<li><a href="#">Блог</a></li>
+							<li><a href="#">Контакты</a></li>
+						</div>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<p>ООО МКК "ЦЕНТР ОНЛАЙН ЗАЙМОВ" ИНН 7814613048 КПП 7811401001 Зарегистрировано в государственном реестре микрофинансовых организаций 06.10.2014 за регистрационным номером 651403140005758.</p>
+
+						<p>Пример расчёта полной стоимости займа: при займе под 2,5% в месяц полная стоимость займа составит 2,5 * 12 (месяцев) = 30% в год. При займе 100 000р. на 1 год, ежемесячный платеж равен 9 749р., сумма процентов через 1 месяц составит 2 500 рублей, через 12 месяцев 30 000 рублей. Пеня при просрочке составляет 20% годовых от суммы просроченной задолженности за каждый календарный день.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+	
+	<div class="off-canvas-sidebar">
+		<div class="off-canvas-sidebar-wrapper visible-on-tablet visible-on-wade">
+			<div class="off-canvas-red">
+				<div class="off-canvas-title"></div>
+				<div class="off-canvas-car"></div>
+			</div>
+			
+			<div class="off-canvas-header"><a class="off-canvas-close" href="#"><img src="images/close.svg" alt=""></a></div>
+			
+			<div class="off-canvas-white">
+				<div class="off-canvas-content modal-dialog-centered">
+					<div class="row">
+						<div class="col-md-6">
+							<h2>Главная</h2>
+							<ul class="off-canvas-li">
+								<li><a href="#">Отзывы</a></li>
+								<li><a href="#">Блог</a></li>
+								<li><a href="#">Автострахование</a></li>
+								<li><a href="#">Франшиза</a></li>
+								<li><a href="#">Контакты</a></li>
+							</ul>
+						</div>
+						<div class="col-md-6">
+							<h2>Услуги</h2>
+							<ul class="off-canvas-li">
+								<li><a href="#">Залог авто</a></li>
+								<li><a href="#">Залог ПТС</a></li>
+								<li><a href="#">Автоломбард</a></li>
+								<li><a href="#">Срочный выкуп</a></li>
+								<li><a href="#">Кредит на покупку авто</a></li>
+							</ul>
+						</div>
+						<div class="col-md-12">
+							<div class="off-canvas-phone"><a href="tel:78005512209">8 (800) 551-22-09</a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="off-canvas-sidebar-wrapper visible-on-mobile">
+			<div class="off-canvas-header"><a class="off-canvas-close" href="#"><img src="images/close.svg" alt=""></a></div>
+			
+			<div class="off-canvas-white">
+				<div class="off-canvas-content modal-dialog-centered">
+					<div class="row">
+						<div class="col-md-12">
+							<ul class="off-canvas-li">
+								<li><a href="#">Главная</a></li>
+								<li><a href="#">Займ под ПТС</a></li>
+								<li><a href="#">Автоломбард</a></li>
+								<li><a href="#">Выкуп авто</a></li>
+								<li><a href="#">Кредит на авто</a></li>
+								<li><a href="#">Контакты</a></li>
+								<li>
+									<a style="color: #01E675" href="https://wa.me/79613014555?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D1%83%D0%B7%D0%BD%D0%B0%D1%82%D1%8C%20%D0%BF%D0%BE%D0%B4%D1%80%D0%BE%D0%B1%D0%BD%D0%B5%D0%B5%20%D0%BE%D0%B1%20%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B0%D1%85%20CarZaem%F0%9F%9A%97%F0%9F%91%89">
+                                    <div class="whatsapp">WhatsApp бот</div>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="off-canvas-red">
+				<div class="city-wrapper city-wrapper-main">
+					<div class="city-text">Ростов-на-Дону</div>
+				</div>  
+				<div class="off-canvas-phone"><a href="tel:78005512209">8 (800) 551-22-09</a></div>
+				<div class="off-canvas-car"></div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="modal fade" id="CallPhone" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h2>Заказать звонок</h2>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					  <span aria-hidden="true"></span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<form class="ajax_form" id="ApplicationForm" method="post">
+						<div class="row">
+							<div class="form-group col-md-6 col-sm-12 col-xs-12">
+								<label for="AppName">Ваше имя</label>
+								<span class="error"></span>
+								<input type="text" class="form-control" id="AppName" name="AppName" placeholder="Как к Вам обращаться">
+							</div>
+							<div class="form-group col-md-6 col-sm-12 col-xs-12">
+								<label for="AppPhone">Телефон</label>
+								<span class="error"></span>
+								<input type="text" class="form-control" id="AppPhone" name="AppPhone"  placeholder="+7 (ХХХ) ХХХ - ХХ - ХХ">
+							</div>
+							
+							<div class="col-md-12">
+								<div class="personal-data">Нажимая на кнопку, вы даёте своё согласие на обработку ваших <a href="#">персональных данных</a></div>
+								<button type="submit" class="btn btn-danger">Подать заявку</button>
+							</div>
+						</div>
+					</form>
+			  </div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="modal fade" id="Application" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h2>Подать заявку</h2>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					  <span aria-hidden="true"></span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<form class="ajax_form" id="ApplicationForm" method="post">
+						<div class="row">
+							<div class="form-group col-md-6 col-sm-12 col-xs-12">
+								<label for="AppName">Ваше имя</label>
+								<span class="error"></span>
+								<input type="text" class="form-control" id="AppName" name="AppName" placeholder="Как к Вам обращаться">
+							</div>
+							<div class="form-group col-md-6 col-sm-12 col-xs-12">
+								<label for="AppPhone">Телефон</label>
+								<span class="error"></span>
+								<input type="text" class="form-control" id="AppPhone" name="AppPhone"  placeholder="+7 (ХХХ) ХХХ - ХХ - ХХ">
+							</div>
+							
+							<div class="col-md-12">
+								<div class="personal-data">Нажимая на кнопку, вы даёте своё согласие на обработку ваших <a href="#">персональных данных</a></div>
+								<button type="submit" class="btn btn-danger">Подать заявку</button>
+							</div>
+						</div>
+					</form>
+			  </div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="cities-wrapper">
+		<div class="cities-wrap cities-main">
+			<div class=" mob-menu-but-h-2">
+				<div class=" mob-line-2 mob-line-c"></div>
+				<div class="mob-line-3 mob-line-c"></div>
+			</div>
+			
+			<div class="cities-header">Популярные города</div>
+			<div class="row">
+				<div class="col-sm-12 col-md-3">
+					<ul class="cities-ul" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Аксай</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Армавир</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Архангельск</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Астрахань</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Барнаул</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Батайск</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Белгород</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Брянск</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Владимир</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Волгоград</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Вологда</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Воронеж</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Екатеринбург</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-12 col-md-3">
+					<ul class="cities-ul" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Ижевск</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Иркутск</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Казань</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Калининград</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Кемерово</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Киров</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Краснодар</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Красноярск</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Липецк</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Москва</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Набережные челны</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Нижний Новгород</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Новокузнецк</a></li>
+					</ul>
+				</div>
+				
+				<div class="col-sm-12 col-md-3"> 
+					<ul class="cities-ul" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Новороссийск</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Новосибирск</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Новочеркасск</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Омск</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Оренбург</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Пенза</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Пермь</a></li>
+						<li class="cities-li"><a href="#" class="cities-a active" itemprop="url">Ростов-на-Дону</a> </li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Рязань</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Самара</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Санкт-Петербург</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Саратов</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Сочи</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-12 col-md-3"> 
+					<ul class="cities-ul" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Ставрополь</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Таганрог</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Тольятти</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Томск</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Тюмень</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Ульяновск</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Уфа</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Хабаровск</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Челябинск</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Шахты</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Ярославль</a></li>
+					</ul>
+				</div>
+				<div class="cities-header">
+					<div class="link-button"><a href="#" class="chl">Показать все города </a></div>
+				</div>
+			</div>
+		</div>
+		<div class="cities-wrap cities-wrap-3"> 
+			<div class=" mob-menu-but-h-2"> 
+				<div class=" mob-line-2 mob-line-c"></div>
+				<div class="mob-line-3 mob-line-c"></div>
+			</div>
+			
+			<div class="cities-header">Все города</div>
+			<div class="row">
+				<div class="col-sm-6 col-md-3"> 
+					<ul class="cities-ul" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Абакан</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Аксай</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Альметьевск</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Ангарск</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Армавир</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Армавир</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Архангельск</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Астрахань</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Балаково</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Балашиха</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Барнаул</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Батайск</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Белгород</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Бийск</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Благовещенск</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Братск</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Брянск</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Великий Новгород</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Владикавказ</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Владимир</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Волгоград</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Волгодонск</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Волжский</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Вологда</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Воронеж</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Дзержинск</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Екатеринбург</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Златоуст</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Иваново</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Ижевск</a></li>
+					</ul> 
+				</div>
+				<div class="col-sm-6 col-md-3"> 
+					<ul class="cities-ul" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Иркутск</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Йошкар-Ола</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Казань</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Калининград</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Калуга</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Каменск-Уральский</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Кемерово</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Киров</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Королёв</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Кострома</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Красногорск</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Краснодар</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Красноярск</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Курган</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Курск</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Липецк</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Люберцы</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Магнитогорск</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Миасс</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Москва</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Мурманск</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Мытищи</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Набережные челны</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Нальчик</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Находка</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Нижневартовск</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Нижнекамск</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Нижний Новгород</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Нижний Тагил</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Новокузнецк</a></li>
+					</ul> 
+				</div>
+				<div class="col-sm-6 col-md-3"> 
+					<ul class="cities-ul" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Новороссийск</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Новосибирск</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Новочеркасск</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Норильск</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Омск</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Орёл</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Оренбург</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Орск</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Пенза</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Пермь</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Петрозаводск</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Петропавловск-камчатский</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Подольск</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Прокопьевск</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Псков</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Ростов-на-Дону</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Рыбинск</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Рязань</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Салават</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Самара</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Санкт-Петербург</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Саранск</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Саратов</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Севастополь</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Северодвинск</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Симферополь</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Смоленск</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Сочи</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Ставрополь</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Старый Оскол</a></li>
+					</ul> 
+				</div>
+				<div class="col-sm-6 col-md-3"> 
+					<ul class="cities-ul" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Стерлитамак</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Сургут</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Сызрань</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Сыктывкар</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Таганрог</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Тамбов</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Тверь</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Тольятти</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Томск</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Тула</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Тюмень</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Улан-Удэ</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Ульяновск</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Уссурийск</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Уфа</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Хабаровск</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Химки</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Чебоксары</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Челябинск</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Череповец</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Чита</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Шахты</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Электросталь</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Энгельс</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Южно-Сахалинск</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Якутск</a></li>
+						<li class="cities-li"><a href="#" class="cities-a" itemprop="url">Ярославль</a></li>
+					</ul> 
+				</div>
+				<div class="cities-header">
+					<div class="link-button"><a href="#" class="chl">Показать популярные города </a></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script src='js/bootstrap.bundle.min.js'></script>
+	<script src="js/plugins.min.js"></script>
+	<script src="js/custom.min.js"></script>
+	<script src="js/owl.carousel.js"></script>
+	<script src="js/jquery.maskedinput.min.js"></script>
+
+	<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+	<script src="http://api-maps.yandex.ru/2.0/?load=package.full&lang=ru-RU" type="text/javascript"></script>
+	
+	<script src="js/map.js"></script>
+	<script src="js/javascript.js"></script>
+	
+	<script src="js/chosen.jquery.js"></script>
+	<script src="js/chosen.js"></script>
+	
+	<script src="js/text-animate.js"></script>
+	
+	<script src="js/main.min.js"></script>
+	
+	<script>
+		$(function () {
+		  $('[data-toggle="popover"]').popover()
+		})
+	</script>
+    
+</body>
+</html>
